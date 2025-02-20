@@ -193,3 +193,69 @@ body{
 .checkbox-container label a{
     color: #1d90f5;
 }
+
+.create-account-button{
+    width: 100%;
+    padding: 15px;
+    background: #1d90f5;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.create-account-button:hover{
+    background: #1282e4;
+    transform: scale(1.05);
+}
+
+.divider-container{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #a5a5b1;
+}
+
+.divider-line{
+    flex: 1;
+    height: 1px;
+    background: #7c7886;
+}
+
+.divider-text{
+    margin: 0 10px;
+}
+
+.social-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.social-buttons button{
+    flex: 1;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+
+.social-buttons button:hover{
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.social-buttons button i{
+    margin-right: 10px;
+    font-size: 16px;
+}
